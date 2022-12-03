@@ -45,14 +45,6 @@ It will also inform them on why they should get involved in a Surfing.
 
 # Deployment #
 
-The site was deployed to GitHub pages.
-
-* In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link to the site can be found here -
-
 # Credits #
 
 ## Media ##
