@@ -58,3 +58,18 @@ h1, h2 {
 .current-page {
     border-bottom: 1px solid #203f4a;
 }
+
+/* Landing Image and CTA box */
+
+#image-housing {
+    height: 700px;
+    width: 100%;
+}
+
+#main-image {
+    height: 700px;
+    width: 100%;
+    background: url('../Images/pexels-adina-lavinia-moldovan-1053536.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
