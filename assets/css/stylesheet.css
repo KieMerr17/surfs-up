@@ -9,7 +9,7 @@
 body {
     font-family: Nokora, sans-serif;
     font-weight: 400;
-    color: #203f4a;
+    color: rgba(02, 63, 74);
 }
 
 /* Header and Logo */
@@ -24,6 +24,7 @@ h1, h2 {
     font-family: Nokora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
+    color: rgba(02, 63, 74);
 }
 
 #logo {
@@ -39,24 +40,25 @@ h1, h2 {
 /* Navigation links */
 
 #navigation a {
+    font-size: 120%;
     text-decoration: none;
-    color: inherit;
+    color: rgba(02, 63, 74);
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid #203f4a;
+    border-bottom: 1px solid rgba(02, 63, 74);
 }
 
 #navigation li {
     float: right;
     list-style-type: none;
-    line-height: 70px;
+    line-height: 60px;
     margin-right: 50px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .current-page {
-    border-bottom: 1px solid #203f4a;
+    border-bottom: 1px solid rgba(02, 63, 74);
 }
 
 /* Main image and CTA box */
@@ -73,27 +75,47 @@ h1, h2 {
     width: 100%;
     background: url('/assets/images/pexels-photo-1549196.jpeg') no-repeat center center;
     background-size: cover;
-    background-position-y: -200px;
 }
 
 #main-signup {
     width: 500px;
     height: 200px;
-    bottom: 200px;
-    right: 200px; 
+    bottom: 35%;
+    right: 5%; 
     padding-top: 5px;
     padding-left: 10px;
     position: absolute;
-    border-radius: 25%;
+    border-radius: 100px;
 
     font-size: 150%;
     letter-spacing: 10px;
     font-family: Nokora, sans-serif;
     text-align: center;
     
-    background-color: rgb(209, 203, 198, .8);  
+    background-color: rgb(209, 203, 198);  
+}
+
+#main-signup h2 {
+    padding-top: 15px;
 }
 
 #main-signup-button {
-    background-color: red;
+    background-color: rgba(02, 63, 74);
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 100px;
+    padding-bottom: 5px;
+}
+
+#main-signup-button a{
+    text-decoration: none;
+}
+
+#main-signup-button a:hover{
+    border-bottom: 1px solid rgb(209, 203, 198);
+}
+
+.signup-button {
+    color: rgb(209, 203, 198);
 }
