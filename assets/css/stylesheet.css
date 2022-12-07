@@ -1,4 +1,4 @@
-/* @import url( google font Nokora) */
+@import url('https://fonts.googleapis.com/css?family=Nokora');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 body {
     font-family: Nokora, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: rgba(02, 63, 74);
 }
 
@@ -24,6 +24,7 @@ h1, h2 {
     font-family: Nokora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
+
     color: rgba(02, 63, 74);
 }
 
@@ -39,16 +40,6 @@ h1, h2 {
 
 /* Navigation links */
 
-#navigation a {
-    font-size: 120%;
-    text-decoration: none;
-    color: rgba(02, 63, 74);
-}
-
-#navigation a:hover {
-    border-bottom: 1px solid rgba(02, 63, 74);
-}
-
 #navigation li {
     float: right;
     list-style-type: none;
@@ -57,11 +48,22 @@ h1, h2 {
     letter-spacing: 8px;
 }
 
+#navigation a {
+    font-size: 120%;
+    text-decoration: none;
+    
+    color: rgba(02, 63, 74);
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid rgba(02, 63, 74);
+}
+
 .current-page {
     border-bottom: 1px solid rgba(02, 63, 74);
 }
 
-/* Main image and CTA box */
+/* Main image */
 
 #image-area {
     height: 650px;
@@ -73,49 +75,74 @@ h1, h2 {
 #landing-image {
     height: 650px;
     width: 100%;
-    background: url('/assets/images/pexels-photo-1549196.jpeg') no-repeat center center;
+    /* background: url('/assets/images/pexels-photo-1549196.jpeg') no-repeat center center; */
     background-size: cover;
 }
+
+/* Signup CTA Box */
 
 #main-signup {
     width: 500px;
     height: 200px;
     bottom: 35%;
     right: 5%; 
-    padding-top: 5px;
+
+    padding-top: 20px;
     padding-left: 10px;
-    position: absolute;
     border-radius: 100px;
 
-    font-size: 150%;
-    letter-spacing: 10px;
+    position: absolute;
+    
     font-family: Nokora, sans-serif;
+    font-size: 125%;
+    letter-spacing: 10px;
     text-align: center;
     
     background-color: rgb(209, 203, 198);  
 }
 
 #main-signup h2 {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 #main-signup-button {
-    background-color: rgba(02, 63, 74);
     width: 60%;
+
     margin-left: 20%;
     margin-top: 5%;
     border-radius: 100px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
-#main-signup-button a{
+.signup-button {
+    background-color: rgba(02, 63, 74);
+}
+
+.signup-button a {
     text-decoration: none;
+    color: rgb(209, 203, 198);
 }
 
 #main-signup-button a:hover{
     border-bottom: 1px solid rgb(209, 203, 198);
 }
 
-.signup-button {
-    color: rgb(209, 203, 198);
+/* About us section */
+
+#what-we-offer-outer {
+    height: 600px;
+    width: 100%;
+
+    background-color: rgb(209, 203, 198);
+}
+
+#what-we-offer-image {
+    background: url('../images/pexels-jess-loiterton-5007775.jpg') no-repeat center center;
+    height: 600px;
+    width: 60%;
+    background-size: cover;
+    background-position-y: -450px;
+
+    float: right;
 }
