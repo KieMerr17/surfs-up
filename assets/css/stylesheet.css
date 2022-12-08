@@ -86,7 +86,7 @@ h1, h2 {
 #main-signup {
     width: 300px;
     height: 200px;
-    bottom: 35%;
+    bottom: 40%;
     right: 5%; 
 
     padding-top: 5px;
@@ -134,17 +134,13 @@ h1, h2 {
 
 #what-we-offer-outer {
     height: 600px;
-    width: 100%;
-
-    background-color: rgb(209, 203, 198);
 }
 
 #what-we-offer-image {
-    background: url('../images/pexels-jess-loiterton-5007775.jpg') no-repeat center center;
     height: 600px;
     width: 60%;
+    background: url('../images/pexels-adina-lavinia-moldovan-1053536.jpg') no-repeat center center;
     background-size: cover;
-    background-position-y: -450px;
 
     float: right;
 }
