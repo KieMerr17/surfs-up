@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nokora');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 * {
     margin: 0;
@@ -7,21 +7,22 @@
 }
 
 body {
-    font-family: Nokora, sans-serif;
-    font-weight: 300;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
     color: rgba(02, 63, 74);
 }
 
+.cream-background {
+    background-color: rgb(209, 203, 198);
+}
 /* Header and Logo */
 
 header {
     height: 65px;
-    width: 100%;
-    background-color: rgb(209, 203, 198, .8);
 }
 
 h1, h2 {
-    font-family: Nokora, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
 
@@ -31,27 +32,29 @@ h1, h2 {
 #logo {
     float: left;
     margin-left: 50px;
-    margin-top: 10px;
 }
 
-#logo a {
+
+/* Navigation links */
+
+#logo, #navigation {
+    line-height: 60px;
+
+}
+#logo, #navigation a{
     text-decoration: none;
 }
 
-/* Navigation links */
 
 #navigation li {
     float: right;
     list-style-type: none;
-    line-height: 60px;
     margin-right: 50px;
     letter-spacing: 8px;
 }
 
 #navigation a {
     font-size: 120%;
-    text-decoration: none;
-    
     color: rgba(02, 63, 74);
 }
 
@@ -69,37 +72,35 @@ h1, h2 {
     height: 650px;
     width: 100%;
     position: relative;
-    margin-bottom: 10px;
 }
-
 
 #landing-image {
     height: 650px;
     width: 100%;
-    /* background: url('/assets/images/pexels-photo-1549196.jpeg') no-repeat center center; */
+    background: url('/assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
     background-size: cover;
 }
 
 /* Signup CTA Box */
 
 #main-signup {
-    width: 500px;
+    width: 300px;
     height: 200px;
     bottom: 35%;
     right: 5%; 
 
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 10px;
     border-radius: 100px;
 
     position: absolute;
     
-    font-family: Nokora, sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 125%;
     letter-spacing: 10px;
     text-align: center;
     
-    background-color: rgb(209, 203, 198);  
+    background-color: rgb(209, 203, 198, .9);  
 }
 
 #main-signup h2 {
@@ -147,30 +148,3 @@ h1, h2 {
 
     float: right;
 }
-
-/* what we offer section */
-
-#what-we-offer-content h2 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 200%;
-    padding-top: 25px;
-}
-
-#what-we-offer-content {
-    height: 600px;
-    width: 40%;
-    text-align: center;    
-}
-
-
-
-
-/* media queries medium-large screen sizes
-
-@media only screen and (max-width: 1008px){
-    #navigation li {
-        display: inline;
-    }
-}; */
-
