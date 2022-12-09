@@ -219,6 +219,11 @@ h1, h2 {
 
 #surf-locations-outer {
     height: 450px;
+
+    background: url('../images/pexels-matt-hardy-1533720.jpg') no-repeat center center;
+    background-size: cover;
+
+    border-top: 2px solid rgb(1, 104, 123);
 }
 
 #surf-locations > h2 {
