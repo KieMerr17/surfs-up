@@ -10,7 +10,6 @@ body {
     font-family: Oswald, sans-serif;
     font-weight: 400;
     color: rgba(02, 63, 74);
-    background-color: rgb(1, 104, 123);
 }
 
 .cream-background {
@@ -176,4 +175,26 @@ h1, h2 {
 }
 
 /* About us section */
+
+#about-us-outer {
+    height: 600px;
+}
+
+#about-us-content {
+    height: 600px;
+    width: 40%;
+
+    font-size: larger;
+    padding: 0px 50px 0px 50px;
+
+    float: right;
+}
+
+#about-us-content h2 {
+    font-size: 170%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
 
