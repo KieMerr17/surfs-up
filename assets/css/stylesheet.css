@@ -9,6 +9,7 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 400;
+    
     color: rgba(02, 63, 74);
 }
 
@@ -178,6 +179,8 @@ h1, h2 {
 
 #about-us-outer {
     height: 600px;
+
+    border-top: 2px solid rgb(1, 104, 123);
 }
 
 #about-us-content {
@@ -188,13 +191,28 @@ h1, h2 {
     padding: 0px 50px 0px 50px;
 
     float: right;
+
+    box-sizing: border-box;
 }
 
 #about-us-content h2 {
     font-size: 170%;
     text-align: center;
     text-decoration: underline;
-    padding-top: 20px;
+
+    padding: 20px 0px 20px 0px;
+}
+
+#about-us-image {
+    height: 600px;
+    width: 60%;
+    background: url('../images/pexels-max-ravier-3348391.jpg') no-repeat center center;
+    background-size: cover;
+
+    float: left;
+
+    box-sizing: border-box;
+    border-right: 2px solid rgb(1, 104, 123);
 }
 
 
