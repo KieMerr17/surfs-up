@@ -31,6 +31,7 @@ h1, h2 {
 }
 
 #logo {
+    font-size: 350%;
     float: left;
     margin-left: 50px;
 }
@@ -102,7 +103,8 @@ h1, h2 {
     letter-spacing: 10px;
     text-align: center;
     
-    background-color: rgb(209, 203, 198, .9);  
+    background-color: rgb(209, 203, 198, .9); 
+    border: 1px solid rgb(1, 104, 123);
 }
 
 #main-signup h2 {
@@ -117,6 +119,8 @@ h1, h2 {
     border-radius: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
+
+    border: 1px solid rgb(1, 104, 123);
 }
 
 .signup-button {
@@ -155,6 +159,7 @@ h1, h2 {
 }
 
 #what-we-offer h2 {
+    font-size: 200%;
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
@@ -169,3 +174,6 @@ h1, h2 {
     padding: 0px 50px 0px 50px;
     font-size: larger;
 }
+
+/* About us section */
+
