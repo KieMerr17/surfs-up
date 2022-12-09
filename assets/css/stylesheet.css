@@ -217,6 +217,29 @@ h1, h2 {
 
 /* Surf Locations */
 
+#surf-locations-outer {
+    height: 450px;
+}
 
+#surf-locations > h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+
+    padding: 20px 0px 20px 0px;
+}
+
+#surf-locations div {
+    text-align: center;
+    width: 14.28%;
+
+    float: left;
+    box-sizing: border-box;
+}
+
+.little-signup {
+    text-align: center;
+    width: 100%;
+}
 
 
