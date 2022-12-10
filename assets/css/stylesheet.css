@@ -172,7 +172,7 @@ h1, h2 {
 
 #what-we-offer ul {
     padding: 0px 50px 0px 50px;
-    font-size: larger;
+    font-size: 20px;
 }
 
 /* About us section */
@@ -187,7 +187,7 @@ h1, h2 {
     height: 600px;
     width: 40%;
 
-    font-size: larger;
+    font-size: 20px;
     padding: 0px 50px 0px 50px;
 
     float: right;
@@ -217,12 +217,13 @@ h1, h2 {
 
 /* Surf Locations */
 
-#surf-locations-outer {
+#surf-locations {
     height: 450px;
 
     background: url('../images/pexels-matt-hardy-1533720.jpg') no-repeat center center;
     background-size: cover;
 
+    padding-left: 80px;
     border-top: 2px solid rgb(1, 104, 123);
 }
 
@@ -231,20 +232,42 @@ h1, h2 {
     text-align: center;
     text-decoration: underline;
 
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0;
 }
 
 #surf-locations div {
+    font-size: 20px;
     text-align: center;
-    width: 14.28%;
+    width: 12.5%;
 
     float: left;
     box-sizing: border-box;
 }
 
-.little-signup {
-    text-align: center;
-    width: 100%;
+#surf-locations div h3 {
+    text-decoration: underline;
 }
 
+.little-signup {
+    height: 30px;
+    width: 40%;
+
+    border-radius: 15px;
+    padding-bottom: 2px;
+    margin-right: 30%;
+
+    background-color: rgba(02, 63, 74);
+
+    float: right;
+}
+
+.weekday {
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(1, 104, 123);
+
+    padding: 10px 0px 20px 0px;
+
+    background-color: rgb(209, 203, 198, .9);
+}
 
