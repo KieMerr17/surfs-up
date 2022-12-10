@@ -225,6 +225,7 @@ h1, h2 {
 
     padding-left: 80px;
     border-top: 2px solid rgb(1, 104, 123);
+    border-bottom: 2px solid rgb(1, 104, 123);
 }
 
 #surf-locations > h2 {
