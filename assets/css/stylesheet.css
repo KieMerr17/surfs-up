@@ -272,3 +272,28 @@ h1, h2 {
     background-color: rgb(209, 203, 198, .9);
 }
 
+/* Contact Us Section */
+
+#contact-us {
+    height: 200px;
+}
+
+#contact-us h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#address {
+    padding-left: 28%;
+    margin-right: 15%;
+    float: left;
+}
+
+table {
+    padding: 5px;
+    border: 2px dashed rgb(1, 104, 123);
+}
+
+th, td {
+    padding: 0 20px;
+}
