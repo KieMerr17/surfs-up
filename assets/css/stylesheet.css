@@ -280,12 +280,13 @@ h1, h2 {
 
 #contact-us h2 {
     text-align: center;
-    padding-top: 20px;
+    padding: 10px 0;
 }
 
 #address {
+    font-size: 20px;
     padding-left: 28%;
-    margin-right: 15%;
+    margin-right: 130px;
     float: left;
 }
 
@@ -297,4 +298,30 @@ table {
 th, td {
     padding: 0 20px;
 }
+
+/* Social Links */
+
+footer {
+    height: 50px;
+    background-color: rgba(02, 63, 74);
+}
+
+#social-links {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#social-links li {
+    margin: 20px 150px;
+    display: inline;
+}
+
+#social-links a {
+    color: rgb(209, 203, 198);
+}
+
+#social-links i {
+    font-size: 180%;
+}
+
 
