@@ -196,7 +196,7 @@ h1, h2 {
 #what-we-offer-image {
     height: 600px;
     width: 60%;
-    background: url('../images/pexels-adina-lavinia-moldovan-1053536.jpg') no-repeat center center;
+    background: url('../images/pexels-adina-lavinia-moldovan-1053536.jpg') no-repeat left center;
     background-size: cover;
 
     border-left: 2px solid rgb(1, 104, 123);
@@ -453,8 +453,6 @@ th, td {
     #about-us-content {
         height: 700px;
     }
-
-   
 }
 
 
