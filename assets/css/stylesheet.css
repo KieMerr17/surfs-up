@@ -9,6 +9,8 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 400;
+
+    margin: 0;
     
     color: rgba(02, 63, 74);
 }
@@ -72,13 +74,11 @@ h1, h2 {
 
 #image-area {
     height: 650px;
-    width: 100%;
     position: relative;
 }
 
 #landing-image {
     height: 650px;
-    width: 100%;
     background: url('/assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
@@ -172,7 +172,7 @@ h1, h2 {
 
 #what-we-offer ul {
     padding: 0px 50px 0px 50px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* About us section */
@@ -187,7 +187,7 @@ h1, h2 {
     height: 600px;
     width: 40%;
 
-    font-size: 20px;
+    font-size: 16px;
     padding: 0px 50px 0px 50px;
 
     float: right;
@@ -301,7 +301,7 @@ th, td {
 
 /* Social Links */
 
-footer {
+/* footer {
     height: 50px;
     background-color: rgba(02, 63, 74);
 }
@@ -312,7 +312,7 @@ footer {
 }
 
 #social-links li {
-    margin: 20px 150px;
+    padding: 20px 150px;
     display: inline;
 }
 
@@ -322,6 +322,82 @@ footer {
 
 #social-links i {
     font-size: 180%;
+} */
+
+
+/* Media queries */
+
+/* for large screen sizes 1200 and smaller */
+
+@media screen and (max-width: 1200px){
+    
+    #what-we-offer-outer {
+        height: 500px;
+    }
+    #what-we-offer {
+        width: 100%;
+        margin: 0 auto;
+        height: 500px;
+        float: left;
+        
+    }
+    
+    #what-we-offer-image {
+        width: 100%;
+        height: 500px;
+    }
+
+    #about-us-content {
+        width: 100%;
+        margin: 0 auto;
+        height: 500px;
+        float: left;
+    }
+
+    #about-us-image{
+        width: 100%;
+        height: 500px;
+    }
 }
 
+    /* media query for nav bar */
 
+@media screen and (max-width: 1008px){
+
+    header {
+        height: 120px;
+    }
+    
+    #navigation {
+        clear: both;
+    }
+
+    #navigation li {
+        float: left;
+    } 
+}
+
+/* for medium screen sizes from 651px and smaller*/
+
+@media screen and (max-width: 651px){
+    
+    #what-we-offer-outer {
+        height: 600px;
+    }
+
+    #what-we-offer {
+        height: 600px;
+    }
+
+    #about-us-outer {
+        height: 600px; 
+    }
+
+    #about-us-content {
+        height: 600px;
+    }
+
+    
+}
+
+/* for small screen sizes from 451px and smaller*/
