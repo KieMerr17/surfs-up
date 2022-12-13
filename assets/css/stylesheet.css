@@ -210,6 +210,8 @@ h1, h2 {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
+
+    margin: 0px 5px;
     padding-top: 20px;
 }
 
@@ -338,13 +340,13 @@ th, td {
 @media screen and (max-width: 1200px){
 
     #about-us-outer {
-        height: 1000px;
+        height: 1020px;
     }
 
     #about-us-content {
         width: 100%;
         margin: 0 auto;
-        height: 500px;
+        height: 520px;
         border-bottom: 2px dashed rgb(1, 104, 123);
         
     }
@@ -356,12 +358,12 @@ th, td {
     }
     
     #what-we-offer-outer {
-        height: 1000px;
+        height: 1020px;
     }
     #what-we-offer-content {
         width: 100%;
         margin: 0 auto;
-        height: 500px;
+        height: 520px;
         
         border-bottom: 2px dashed rgb(1, 104, 123);
         
@@ -383,6 +385,78 @@ th, td {
     }
 }
 
+/* media queries for size 561px and smaller */
+
+@media screen and (max-width: 561px){
+    #about-us-outer {
+        height: 1070px;
+    }
+
+    #about-us-content {
+        height: 570px;
+    }
+
+    #what-we-offer-outer {
+        height: 1070px;
+    }
+
+    #what-we-offer-content {
+        height: 570px;
+    }
+}
+
+/* media queries for screen sizes 508px and smaller */
+
+@media screen and (max-width: 508px){
+    #what-we-offer-outer {
+        height: 1150px;
+    }
+
+    #what-we-offer-content {
+        height: 650px;
+    }
+}
+
+/* media queries for screen sizes 449 and smaller */
+
+@media screen and (max-width: 449px){
+    #about-us-outer {
+        height: 1150px;
+    }
+
+    #about-us-content {
+        height: 650px;
+    }
+
+    
+}
+
+/* media queries for screen sizes 425 and smaller */
+
+@media screen and (max-width: 425px){
+    #what-we-offer-outer {
+        height: 1200px;
+    }
+
+    #what-we-offer-content {
+        height: 700px;
+    }
+}
+
+/* media queries for screen sizes 417 and smaller */
+
+@media screen and (max-width: 417px){
+    #about-us-outer {
+        height: 1200px;
+    }
+
+    #about-us-content {
+        height: 700px;
+    }
+
+   
+}
+
 
 /* for small screen sizes from 376px and smaller*/
 
@@ -390,7 +464,28 @@ th, td {
     #contact-us {
         height: 450px;
     }
+
+    #about-us-outer {
+        height: 1350px;
+    }
+
+    #about-us-content {
+        height: 850px;
+    }
+
+    #what-we-offer-outer {
+        height: 1350px;
+    }
+
+    #what-we-offer-content {
+        height: 850px;
+    }
+
+    #what-we-offer-content h2 {
+        margin: 1
+    }
 }
+
 /* media query for nav bar */
 
 @media screen and (max-width: 1008px){
