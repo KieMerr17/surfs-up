@@ -180,11 +180,17 @@ h1, h2 {
 
 #what-we-offer-outer {
     height: 600px;
+
+    border-top: 2px solid rgb(1, 104, 123);
 }
 
-#what-we-offer {
+#what-we-offer-content {
     height: 600px;
     width: 40%;
+
+    float: left;
+
+    box-sizing: border-box;
 }
 
 #what-we-offer-image {
@@ -196,9 +202,11 @@ h1, h2 {
     border-left: 2px solid rgb(1, 104, 123);
 
     float: right;
+
+    box-sizing: border-box;
 }
 
-#what-we-offer h2 {
+#what-we-offer-content h2 {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
@@ -210,7 +218,7 @@ h1, h2 {
     padding-top: 20px;
 }
 
-#what-we-offer ul {
+#what-we-offer-content ul {
     padding: 0px 50px 0px 50px;
     font-size: 16px;
 }
@@ -221,11 +229,12 @@ h1, h2 {
 
 #surf-locations {
     height: 450px;
+    text-align: center;
 
     background: url('../images/pexels-matt-hardy-1533720.jpg') no-repeat center center;
     background-size: cover;
 
-    padding-left: 80px;
+    /* padding: 0 9.5% 0 9.5%; */
     border-top: 2px solid rgb(1, 104, 123);
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -241,28 +250,17 @@ h1, h2 {
 #surf-locations div {
     font-size: 20px;
     text-align: center;
-    width: 12.5%;
+    width: 200px;
 
-    float: left;
     box-sizing: border-box;
+
+    display: inline-block;
 }
 
 #surf-locations div h3 {
     text-decoration: underline;
 }
 
-.little-signup {
-    height: 30px;
-    width: 40%;
-
-    border-radius: 15px;
-    padding-bottom: 2px;
-    margin-right: 30%;
-
-    background-color: rgba(02, 63, 74);
-
-    float: right;
-}
 
 .weekday {
     margin: 0px 10px;
@@ -278,6 +276,9 @@ h1, h2 {
 
 #contact-us {
     height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 #contact-us h2 {
@@ -287,14 +288,15 @@ h1, h2 {
 
 #address {
     font-size: 20px;
-    padding-left: 28%;
-    margin-right: 130px;
+    /* padding-left: 10em;
+    margin-right: 130px; */
     float: left;
 }
 
 table {
     padding: 5px;
     border: 2px dashed rgb(1, 104, 123);
+    float: right;
 }
 
 th, td {
@@ -332,33 +334,42 @@ th, td {
 /* for large screen sizes 1200 and smaller */
 
 @media screen and (max-width: 1200px){
-    
-    #what-we-offer-outer {
-        height: 500px;
-    }
-    #what-we-offer {
-        width: 100%;
-        margin: 0 auto;
-        height: 500px;
-        float: left;
-        
-    }
-    
-    #what-we-offer-image {
-        width: 100%;
-        height: 500px;
+
+    #about-us-outer {
+        height: 1000px;
     }
 
     #about-us-content {
         width: 100%;
         margin: 0 auto;
         height: 500px;
-        float: left;
+        border-bottom: 2px dashed rgb(1, 104, 123);
+        
     }
 
     #about-us-image{
         width: 100%;
         height: 500px;
+        border-right: none;
+    }
+    
+    #what-we-offer-outer {
+        height: 1000px;
+    }
+    #what-we-offer-content {
+        width: 100%;
+        margin: 0 auto;
+        height: 500px;
+        
+        border-bottom: 2px dashed rgb(1, 104, 123);
+        
+    }
+    
+    #what-we-offer-image {
+        width: 100%;
+        height: 500px;
+        border-left: none;
+        border-bottom: 2px solid rgb(1, 104, 123);
     }
 }
 
