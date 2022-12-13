@@ -244,7 +244,7 @@ h1, h2 {
     text-align: center;
     text-decoration: underline;
 
-    padding: 20px 0;
+    padding: 20px 5px;
 }
 
 #surf-locations div {
@@ -252,6 +252,7 @@ h1, h2 {
     text-align: center;
     width: 200px;
 
+    margin: 5px;
     box-sizing: border-box;
 
     display: inline-block;
@@ -373,7 +374,11 @@ th, td {
     }
 }
 
-    /* media query for nav bar */
+
+/* for small screen sizes from 451px and smaller*/
+
+
+/* media query for nav bar */
 
 @media screen and (max-width: 1008px){
 
@@ -390,27 +395,34 @@ th, td {
     } 
 }
 
-/* for medium screen sizes from 651px and smaller*/
+/* media query for surf locations */
 
-@media screen and (max-width: 651px){
-    
-    #what-we-offer-outer {
-        height: 600px;
+@media screen and (max-width: 1492px){
+    #surf-locations {
+        height: 670px;
     }
-
-    #what-we-offer {
-        height: 600px;
-    }
-
-    #about-us-outer {
-        height: 600px; 
-    }
-
-    #about-us-content {
-        height: 600px;
-    }
-
-    
 }
 
-/* for small screen sizes from 451px and smaller*/
+@media screen and (max-width: 850px){
+    #surf-locations {
+        height: 960px;
+    }
+}
+
+@media screen and (max-width: 637px){
+    #surf-locations {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 442px){
+    #surf-locations {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 424px){
+    #surf-locations {
+        height: 2170px;
+    }
+}
