@@ -278,31 +278,32 @@ h1, h2 {
 #contact-us {
     height: 200px;
     text-align: center;
-    margin: 0 auto;
-    display: block;
+
+    border-bottom: 2px solid rgb(1, 104, 123);
+}
+
+#contact-us div {
+    margin: 20px;
+    display: inline-block;
 }
 
 #contact-us h2 {
-    text-align: center;
     padding: 10px 0;
 }
 
 #address {
     font-size: 20px;
-    /* padding-left: 10em;
-    margin-right: 130px; */
-    float: left;
+
+    margin: 0 20px 20px 0;
 }
 
 table {
-    padding: 5px;
     border: 2px dashed rgb(1, 104, 123);
-    float: right;
 }
 
 th, td {
     padding: 0 20px;
-}
+} 
 
 /* Social Links */
 
@@ -374,10 +375,22 @@ th, td {
     }
 }
 
+/* media queries for medium size screens size */
 
-/* for small screen sizes from 451px and smaller*/
+@media screen and (max-width: 775px){
+    #contact-us {
+        height: 350px;
+    }
+}
 
 
+/* for small screen sizes from 395px and smaller*/
+
+@media screen and (max-width: 395px){
+    #contact-us {
+        height: 450px;
+    }
+}
 /* media query for nav bar */
 
 @media screen and (max-width: 1008px){
