@@ -148,11 +148,8 @@ h1, h2 {
     min-height: 600px;
     width: 40%;
 
-    font-size: 16px;
     padding: 0px 15px 15px 15px;
-
     float: right;
-
     box-sizing: border-box;
 }
 
@@ -235,7 +232,6 @@ h1, h2 {
     background: url('../images/pexels-matt-hardy-1533720.jpg') no-repeat center center;
     background-size: cover;
 
-    /* padding: 0 9.5% 0 9.5%; */
     border-top: 2px solid rgb(1, 104, 123);
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -277,7 +273,7 @@ h1, h2 {
 /* Contact Us Section */
 
 #contact-us {
-    height: 200px;
+    min-height: 200px;
     text-align: center;
 
     border-bottom: 2px solid rgb(1, 104, 123);
@@ -299,7 +295,7 @@ h1, h2 {
 
 table {
     border: 2px dashed rgb(1, 104, 123);
-    margin: 0 20px;
+    margin: 0px 20px;
 }
 
 th, td {
@@ -334,25 +330,37 @@ th, td {
 
 /* Media queries */
 
-/* for large screen sizes 1200 and smaller */
+/* Media queries for medium - large screen sizes 960px and smaller */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 960px){
+
+    header {
+        height: 120px;
+    }
+    
+    #navigation {
+        clear: both;
+    }
+
+    #navigation li {
+        float: left;
+    } 
 
     #about-us-outer {
-        min-height: 1020px;
+        min-height: 800px;
     }
 
     #about-us-content {
+        min-height: 350px;
         width: 100%;
         margin: 0 auto;
-        min-height: 520px;
         border-bottom: 2px dashed rgb(1, 104, 123);
         
     }
 
     #about-us-image{
         width: 100%;
-        height: 500px;
+        height: 450px;
         border-right: none;
     }
     
@@ -376,129 +384,6 @@ th, td {
     }
 }
 
-/* media queries for medium size screens size */
-
-/* @media screen and (max-width: 755px){
-    #contact-us {
-        height: 300px;
-    }
-} */
-
-/* media queries for size 561px and smaller */
-
-/* @media screen and (max-width: 561px){
-    #about-us-outer {
-        height: 1070px;
-    }
-
-    #about-us-content {
-        height: 570px;
-    }
-
-    #what-we-offer-outer {
-        height: 1070px;
-    }
-
-    #what-we-offer-content {
-        height: 570px;
-    }
-} */
-
-/* media queries for screen sizes 508px and smaller */
-
-/* @media screen and (max-width: 508px){
-    #what-we-offer-outer {
-        height: 1150px;
-    }
-
-    #what-we-offer-content {
-        height: 650px;
-    }
-} */
-
-/* media queries for screen sizes 449 and smaller */
-
-/* @media screen and (max-width: 449px){
-    #about-us-outer {
-        height: 1150px;
-    }
-
-    #about-us-content {
-        height: 650px;
-    }
-
-    
-} */
-
-/* media queries for screen sizes 425 and smaller */
-
-/* @media screen and (max-width: 425px){
-    #what-we-offer-outer {
-        height: 1200px;
-    }
-
-    #what-we-offer-content {
-        height: 700px;
-    }
-} */
-
-/* media queries for screen sizes 417 and smaller */
-
-/* @media screen and (max-width: 417px){
-    #about-us-outer {
-        height: 1200px;
-    }
-
-    #about-us-content {
-        height: 700px;
-    }
-} */
-
-
-/* for small screen sizes from 376px and smaller*/
-
-/* @media screen and (max-width: 376px){
-    #contact-us {
-        height: 450px;
-    }
-
-    #about-us-outer {
-        height: 1350px;
-    }
-
-    #about-us-content {
-        height: 850px;
-    }
-
-    #what-we-offer-outer {
-        height: 1350px;
-    }
-
-    #what-we-offer-content {
-        height: 850px;
-    }
-
-    #what-we-offer-content h2 {
-        margin: 1
-    }
-} */
-
-/* media query for nav bar */
-
-@media screen and (max-width: 1008px){
-
-    header {
-        height: 120px;
-    }
-    
-    #navigation {
-        clear: both;
-    }
-
-    #navigation li {
-        float: left;
-    } 
-}
 
 /* media query for surf locations */
 
