@@ -139,17 +139,17 @@ h1, h2 {
 /* About us section */
 
 #about-us-outer {
-    height: 600px;
+    min-height: 600px;
 
     border-top: 2px solid rgb(1, 104, 123);
 }
 
 #about-us-content {
-    height: 600px;
+    min-height: 600px;
     width: 40%;
 
     font-size: 16px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 15px 15px 15px;
 
     float: right;
 
@@ -221,8 +221,7 @@ h1, h2 {
 }
 
 #what-we-offer-content ul {
-    padding: 0px 50px 0px 50px;
-    font-size: 16px;
+    padding: 0px 20px 20px 20px;
 }
 
 
@@ -340,13 +339,13 @@ th, td {
 @media screen and (max-width: 1200px){
 
     #about-us-outer {
-        height: 1020px;
+        min-height: 1020px;
     }
 
     #about-us-content {
         width: 100%;
         margin: 0 auto;
-        height: 520px;
+        min-height: 520px;
         border-bottom: 2px dashed rgb(1, 104, 123);
         
     }
@@ -379,15 +378,15 @@ th, td {
 
 /* media queries for medium size screens size */
 
-@media screen and (max-width: 755px){
+/* @media screen and (max-width: 755px){
     #contact-us {
         height: 300px;
     }
-}
+} */
 
 /* media queries for size 561px and smaller */
 
-@media screen and (max-width: 561px){
+/* @media screen and (max-width: 561px){
     #about-us-outer {
         height: 1070px;
     }
@@ -403,11 +402,11 @@ th, td {
     #what-we-offer-content {
         height: 570px;
     }
-}
+} */
 
 /* media queries for screen sizes 508px and smaller */
 
-@media screen and (max-width: 508px){
+/* @media screen and (max-width: 508px){
     #what-we-offer-outer {
         height: 1150px;
     }
@@ -415,11 +414,11 @@ th, td {
     #what-we-offer-content {
         height: 650px;
     }
-}
+} */
 
 /* media queries for screen sizes 449 and smaller */
 
-@media screen and (max-width: 449px){
+/* @media screen and (max-width: 449px){
     #about-us-outer {
         height: 1150px;
     }
@@ -429,11 +428,11 @@ th, td {
     }
 
     
-}
+} */
 
 /* media queries for screen sizes 425 and smaller */
 
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
     #what-we-offer-outer {
         height: 1200px;
     }
@@ -441,11 +440,11 @@ th, td {
     #what-we-offer-content {
         height: 700px;
     }
-}
+} */
 
 /* media queries for screen sizes 417 and smaller */
 
-@media screen and (max-width: 417px){
+/* @media screen and (max-width: 417px){
     #about-us-outer {
         height: 1200px;
     }
@@ -453,12 +452,12 @@ th, td {
     #about-us-content {
         height: 700px;
     }
-}
+} */
 
 
 /* for small screen sizes from 376px and smaller*/
 
-@media screen and (max-width: 376px){
+/* @media screen and (max-width: 376px){
     #contact-us {
         height: 450px;
     }
@@ -482,7 +481,7 @@ th, td {
     #what-we-offer-content h2 {
         margin: 1
     }
-}
+} */
 
 /* media query for nav bar */
 
