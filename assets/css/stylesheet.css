@@ -348,6 +348,15 @@ footer {
 
 @media screen and (max-width: 974px){
 
+    #navigation {
+        clear: left;
+        text-align: left;
+    }
+
+    #navigation li {
+        display: inline-block;
+    }
+    
     #about-us-outer {
         min-height: 800px;
     }
@@ -376,7 +385,6 @@ footer {
         margin: 0 auto;
         
         border-bottom: 2px dashed rgb(1, 104, 123);
-        
     }
     
     #what-we-offer-image {
@@ -385,28 +393,19 @@ footer {
         border-left: none;
         border-bottom: 2px solid rgb(1, 104, 123);
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media queries for medium screen sizes 767px and smaller */
 
 @media screen and (max-width: 767px){
 
-    #navigation {
-        clear: left;
-        text-align: left;
-    }
-
-    #navigation li {
-        display: inline-block;
-    }
-
     #main-signup {
         bottom: 15%;
         right: 1%;
-    }
-
-    #photos {
-        column-count: 3;
     }
 }
 
