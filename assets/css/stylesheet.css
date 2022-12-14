@@ -41,6 +41,10 @@ h1, h2 {
 
 /* Navigation links */
 
+#navigation {
+    text-align: right;
+}
+
 #logo, #navigation {
     line-height: 60px;
 
@@ -51,10 +55,11 @@ h1, h2 {
 
 
 #navigation li {
-    float: right;
+    /* float: right; */
     list-style-type: none;
-    margin-right: 50px;
-    letter-spacing: 8px;
+    margin: 0px 20px;
+    letter-spacing: 5px;
+    display: inline-block;
 }
 
 #navigation a {
@@ -339,13 +344,12 @@ th, td {
     }
     
     #navigation {
-        text-align: center;
         clear: both;
     }
 
-    /* #navigation li {
-        float: left;
-    }  */
+    #navigation li {
+    /* float: left; */
+    } 
 
     #about-us-outer {
         min-height: 800px;
