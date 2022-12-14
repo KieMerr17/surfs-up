@@ -279,8 +279,6 @@ h1, h2 {
 #contact-us {
     min-height: 200px;
     text-align: center;
-
-    border-bottom: 2px solid rgb(1, 104, 123);
 }
 
 #contact-us div {
@@ -308,28 +306,25 @@ th, td {
 
 /* Social Links */
 
-/* footer {
-    height: 50px;
-    background-color: rgba(02, 63, 74);
+footer {
+    min-height: 50px;
+    background-color: rgb(209, 203, 198, .9); 
 }
 
-#social-links {
+.social-networks {
     text-align: center;
-    padding-top: 10px;
 }
 
-#social-links li {
-    padding: 20px 150px;
+.social-networks > li {
     display: inline;
 }
 
-#social-links a {
-    color: rgb(209, 203, 198);
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 0 5%;
+    color: rgba(02, 63, 74);
 }
-
-#social-links i {
-    font-size: 180%;
-} */
 
 
 /* Media queries */
