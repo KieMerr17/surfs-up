@@ -55,7 +55,6 @@ h1, h2 {
 
 
 #navigation li {
-    /* float: right; */
     list-style-type: none;
     margin: 0px 20px;
     letter-spacing: 5px;
@@ -93,7 +92,7 @@ h1, h2 {
 
 #main-signup {
     width: 300px;
-    height: 200px;
+    height: 80px;
     bottom: 40%;
     right: 5%; 
 
@@ -339,18 +338,6 @@ th, td {
 
 @media screen and (max-width: 974px){
 
-    header {
-        min-height: 110px;
-    }
-    
-    #navigation {
-        clear: both;
-    }
-
-    #navigation li {
-    /* float: left; */
-    } 
-
     #about-us-outer {
         min-height: 800px;
     }
@@ -387,5 +374,24 @@ th, td {
         width: 100%;
         border-left: none;
         border-bottom: 2px solid rgb(1, 104, 123);
+    }
+}
+
+/* Media queries for medium screen sizes 767px and smaller */
+
+@media screen and (max-width: 767px){
+
+    #navigation {
+        clear: left;
+        text-align: left;
+    }
+
+    #navigation li {
+        display: inline-block;
+    }
+
+    #main-signup {
+        bottom: 15%;
+        right: 1%;
     }
 }
