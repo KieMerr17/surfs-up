@@ -346,7 +346,8 @@ footer {
 #form-section{
     background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
     min-height: 850px;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #sign-up {
@@ -358,9 +359,9 @@ footer {
     margin-top: 50px;
     color: white;
     background-color: rgb(1, 104, 123, .6);
-    max-width: 400px;
-    position: absolute;
-    left: 25%;
+    max-width: 500px;
+    min-width: 150px;
+    margin: 50px;
     padding: 30px;
 }
 
@@ -418,6 +419,18 @@ footer {
 form label {
     letter-spacing: 2px;
 }
+
+.signin-form {
+    border-radius: 50px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(1, 104, 123, .6);
+    max-width: 200px;
+    /* position: absolute; */
+    /* right: 25%; */
+    padding: 30px;
+}
+
 
 /* Media queries */
 
