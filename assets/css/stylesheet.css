@@ -341,6 +341,84 @@ footer {
     width: 100%;
 }
 
+/* signup page */
+
+#form-section{
+    background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
+    min-height: 850px;
+    text-align: center;
+}
+
+#sign-up {
+    display: inline-block;
+}
+
+.signup-form {
+    border-radius: 50px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(1, 104, 123, .6);
+    max-width: 400px;
+    position: absolute;
+    left: 25%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: white;
+    margin-bottom: 20px;  
+}
+
+.signup-form h3 {
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.text-input {
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 4px;
+    color: white;
+    
+    background: transparent;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.text-input:hover {
+    border-color: orange;
+}
+
+.signup-button {
+    font-size: 100%;
+    text-align: center;
+    border-radius: 15px;
+
+    margin-top: 20px;
+    padding: 15px 30px;
+    
+    background-color: rgb(209, 203, 198);
+    color: rgb(1, 104, 123);
+
+    display: block;
+}
+
+.signup-button:hover {
+    border-radius: 40px;
+}
+
+.signup-button:hover {
+    background-color: white;
+    color:  rgb(1, 104, 123);
+}
+
+form label {
+    letter-spacing: 2px;
+}
+
 /* Media queries */
 
 /* Media queries for medium - large screen sizes 974px and smaller */
