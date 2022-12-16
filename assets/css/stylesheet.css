@@ -345,7 +345,7 @@ footer {
 
 #form-section{
     background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
-    min-height: 850px;
+    min-height: 950px;
     display: flex;
     align-items: center;
 }
@@ -360,7 +360,7 @@ footer {
     color: white;
     background-color: rgb(1, 104, 123, .6);
     max-width: 500px;
-    min-width: 150px;
+    min-width: 200px;
     margin: 50px;
     padding: 30px;
 }
@@ -393,7 +393,7 @@ footer {
     border-color: orange;
 }
 
-.signup-button {
+.submit-button {
     font-size: 100%;
     text-align: center;
     border-radius: 15px;
@@ -407,11 +407,8 @@ footer {
     display: block;
 }
 
-.signup-button:hover {
+.submit-button:hover {
     border-radius: 40px;
-}
-
-.signup-button:hover {
     background-color: white;
     color:  rgb(1, 104, 123);
 }
@@ -426,10 +423,40 @@ form label {
     color: white;
     background-color: rgb(1, 104, 123, .6);
     max-width: 200px;
-    /* position: absolute; */
-    /* right: 25%; */
     padding: 30px;
 }
+
+#sign-in {
+    max-width: 500px;
+    min-width: 200px;
+    color: rgb(1, 104, 123);
+    background-color: rgb(209, 203, 198, .6);
+}
+
+#sign-in h2 {
+    color: rgb(1, 104, 123);
+}
+
+.signin-button {
+    font-size: 100%;
+    text-align: center;
+    border-radius: 15px;
+
+    margin-top: 20px;
+    padding: 15px 30px;
+    
+    background-color: rgb(1, 104, 123);
+    color: white;
+
+    display: block;
+}
+
+.signin-button:hover {
+    border-radius: 40px;
+    background-color: white;
+    color: rgb(1, 104, 123);
+}
+
 
 
 /* Media queries */
@@ -496,6 +523,11 @@ form label {
     #main-signup {
         bottom: 15%;
         right: 1%;
+    }
+
+    #form-section {
+        height: 1200px;
+        display: grid;
     }
 }
 
