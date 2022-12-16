@@ -347,6 +347,7 @@ footer {
     background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
     min-height: 950px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -361,7 +362,7 @@ footer {
     background-color: rgb(1, 104, 123, .6);
     max-width: 500px;
     min-width: 200px;
-    margin: 50px;
+    margin: 20px;
     padding: 30px;
 }
 
@@ -398,7 +399,7 @@ footer {
     text-align: center;
     border-radius: 15px;
 
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 15px 30px;
     
     background-color: rgb(209, 203, 198);
@@ -537,5 +538,9 @@ form label {
 
     #photos {
         column-count: 2;
+    }
+
+    .signup-form, .signin-form {
+        margin: 5px 20px;
     }
 }
