@@ -341,35 +341,6 @@ footer {
     width: 100%;
 }
 
-/* Signup Page */
-
-#forms-area {
-    background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
-    min-height: 700px;
-    text-align: center;
-}
-
-#sign-in, #sign-up {
-    display: inline-block;
-}
-
-#sign-up {
-    background-color: orange;
-    min-height: 500px;
-    min-width: 500px;
-
-    margin-top: 100px;
-}
-
-#sign-in {
-    background-color: blue;
-    height: 300px;
-    width: 300px;
-
-    margin: 10px 0 100px 10px;
-}
-
-
 /* Media queries */
 
 /* Media queries for medium - large screen sizes 974px and smaller */
