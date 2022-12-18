@@ -83,7 +83,7 @@ h1, h2 {
 
 #landing-image {
     height: 650px;
-    background: url('/assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
+    background: url('assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -344,7 +344,7 @@ footer {
 /* signup page */
 
 #form-section{
-    background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
+    background: url('assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
     min-height: 950px;
     display: flex;
     justify-content: center;
