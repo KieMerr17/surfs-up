@@ -328,7 +328,7 @@ footer {
 
 /* Gallery Page */
 
-#photos {
+#gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
@@ -337,7 +337,7 @@ footer {
     background-color: rgb(209, 203, 198);
 }
 
-#photos > img {
+#gallery > img {
     width: 100%;
 }
 
@@ -512,7 +512,7 @@ form label {
         border-bottom: 2px solid rgb(1, 104, 123);
     }
 
-    #photos {
+    #gallery {
         column-count: 3;
     }
 }
@@ -536,7 +536,7 @@ form label {
 
 @media screen and (max-width: 600px){
 
-    #photos {
+    #gallery {
         column-count: 2;
     }
 
@@ -547,7 +547,7 @@ form label {
 
 @media screen and (max-width: 400px){
 
-    #photos {
+    #gallery {
         column-count: 1;
     }
 }
