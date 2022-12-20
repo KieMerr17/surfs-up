@@ -9,17 +9,15 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 400;
-
     margin: 0;
-    
     color: rgba(02, 63, 74);
 }
 
 .cream-background {
     background-color: rgb(209, 203, 198);
 }
-/* Header and Logo */
 
+/* Header and Logo */
 header {
     min-height: 65px;
 }
@@ -28,7 +26,6 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
-
     color: rgba(02, 63, 74);
 }
 
@@ -38,21 +35,18 @@ h1, h2 {
     margin-left: 50px;
 }
 
-
 /* Navigation links */
-
 #navigation {
     text-align: right;
 }
 
 #logo, #navigation {
     line-height: 60px;
-
 }
+
 #logo, #navigation a{
     text-decoration: none;
 }
-
 
 #navigation li {
     list-style-type: none;
@@ -75,7 +69,6 @@ h1, h2 {
 }
 
 /* Main image */
-
 #image-area {
     height: 650px;
     position: relative;
@@ -89,24 +82,19 @@ h1, h2 {
 }
 
 /* Signup CTA Box */
-
 #main-signup {
     width: 300px;
     height: 80px;
     bottom: 40%;
     right: 5%; 
-
     padding-top: 5px;
     padding-left: 10px;
     border-radius: 100px;
-
     position: absolute;
-    
     font-family: Oswald, sans-serif;
     font-size: 125%;
     letter-spacing: 10px;
     text-align: center;
-    
     background-color: rgb(209, 203, 198, .9); 
     border: 1px solid rgb(1, 104, 123);
 }
@@ -117,13 +105,11 @@ h1, h2 {
 
 #main-signup-button {
     width: 60%;
-
     margin-left: 20%;
     margin-top: 5%;
     border-radius: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-
     border: 1px solid rgb(1, 104, 123);
 }
 
@@ -141,17 +127,14 @@ h1, h2 {
 }
 
 /* About us section */
-
 #about-us-outer {
     min-height: 600px;
-
     border-top: 2px solid rgb(1, 104, 123);
 }
 
 #about-us-content {
     min-height: 600px;
     width: 40%;
-
     padding: 0px 15px 15px 15px;
     float: right;
     box-sizing: border-box;
@@ -161,7 +144,6 @@ h1, h2 {
     font-size: 170%;
     text-align: center;
     text-decoration: underline;
-
     padding: 20px 0px 20px 0px;
 }
 
@@ -170,27 +152,21 @@ h1, h2 {
     width: 60%;
     background: url('../images/index-2.jpg') no-repeat center center;
     background-size: cover;
-
     float: left;
-
     box-sizing: border-box;
     border-right: 2px solid rgb(1, 104, 123);
 }
 
 /* What we offer section */
-
 #what-we-offer-outer {
     min-height: 600px;
-
     border-top: 2px solid rgb(1, 104, 123);
 }
 
 #what-we-offer-content {
     min-height: 600px;
     width: 40%;
-
     float: left;
-
     box-sizing: border-box;
 }
 
@@ -199,11 +175,8 @@ h1, h2 {
     width: 60%;
     background: url('../images/index-3.jpg') no-repeat left center;
     background-size: cover;
-
     border-left: 2px solid rgb(1, 104, 123);
-
     float: right;
-
     box-sizing: border-box;
 }
 
@@ -211,7 +184,6 @@ h1, h2 {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
-
     margin: 0px 5px;
     padding-top: 20px;
 }
@@ -228,14 +200,11 @@ h1, h2 {
 
 
 /* Surf Locations */
-
 #surf-locations {
     min-height: 450px;
     text-align: center;
-
     background: url('../images/index-4.jpg') no-repeat center center;
     background-size: cover;
-
     border-top: 2px solid rgb(1, 104, 123);
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -244,7 +213,6 @@ h1, h2 {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
-
     padding: 20px 5px;
 }
 
@@ -252,10 +220,8 @@ h1, h2 {
     font-size: 20px;
     text-align: center;
     width: 200px;
-
     margin: 5px;
     box-sizing: border-box;
-
     display: inline-block;
 }
 
@@ -263,19 +229,15 @@ h1, h2 {
     text-decoration: underline;
 }
 
-
 .weekday {
     margin: 0px 10px;
     border-radius: 20px;
     border: 2px solid rgb(1, 104, 123);
-
     padding: 10px 0px 20px 0px;
-
     background-color: rgb(209, 203, 198, .9);
 }
 
 /* Contact Us Section */
-
 #contact-us {
     min-height: 200px;
     text-align: center;
@@ -291,7 +253,6 @@ h1, h2 {
 
 #address {
     font-size: 20px;
-
     margin: 0 0 20px 20px;
 }
 
@@ -305,7 +266,6 @@ th, td {
 } 
 
 /* Social Links */
-
 footer {
     min-height: 50px;
     background-color: rgb(209, 203, 198); 
@@ -327,13 +287,11 @@ footer {
 }
 
 /* Gallery Page */
-
 #gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-
     background-color: rgb(209, 203, 198);
 }
 
@@ -383,7 +341,6 @@ footer {
     text-align: center;
     letter-spacing: 4px;
     color: white;
-    
     background: transparent;
     margin: 5px 0 20px 0;
     border: 1px solid white;
@@ -398,13 +355,10 @@ footer {
     font-size: 100%;
     text-align: center;
     border-radius: 15px;
-
     margin-top: 5px;
     padding: 15px 30px;
-    
     background-color: rgb(209, 203, 198);
     color: rgb(1, 104, 123);
-
     display: block;
 }
 
@@ -442,13 +396,10 @@ form label {
     font-size: 100%;
     text-align: center;
     border-radius: 15px;
-
     margin-top: 20px;
     padding: 15px 30px;
-    
     background-color: rgb(1, 104, 123);
     color: white;
-
     display: block;
 }
 
@@ -458,12 +409,9 @@ form label {
     color: rgb(1, 104, 123);
 }
 
-
-
 /* Media queries */
 
 /* Media queries for medium - large screen sizes 974px and smaller */
-
 @media screen and (max-width: 974px){
 
     #navigation {
@@ -501,7 +449,6 @@ form label {
         min-height: 350px;
         width: 100%;
         margin: 0 auto;
-        
         border-bottom: 2px dashed rgb(1, 104, 123);
     }
     
@@ -518,7 +465,6 @@ form label {
 }
 
 /* Media queries for medium screen sizes 767px and smaller */
-
 @media screen and (max-width: 767px){
 
     #main-signup {
@@ -533,7 +479,6 @@ form label {
 }
 
 /* Media queries for small screen sizes 600px and smaller */
-
 @media screen and (max-width: 600px){
 
     #gallery {
@@ -545,6 +490,7 @@ form label {
     }
 }
 
+/* Media queries for small screens 400px and smaller */
 @media screen and (max-width: 400px){
 
     #gallery {
@@ -553,7 +499,6 @@ form label {
 }
 
 /* 404 Page */
-
 #error-404 {
     background: url("../images/404-image.jpg") no-repeat center center;
     min-height: 800px;
