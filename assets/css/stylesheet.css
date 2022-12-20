@@ -83,7 +83,7 @@ h1, h2 {
 
 #landing-image {
     height: 650px;
-    background: url('assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
+    background: url('/assets/images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -297,7 +297,7 @@ h1, h2 {
 
 table {
     border: 2px dashed rgb(1, 104, 123);
-    margin: 0px 20px;
+    margin: 0px 5px;
 }
 
 th, td {
