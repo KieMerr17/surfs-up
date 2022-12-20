@@ -555,6 +555,21 @@ form label {
 /* 404 Page */
 
 #error-404 {
-    background: url("../images/404-image.jpg") no-repeat center center;
-    min-height: 950px;
+    background: url("/assets/images/404-image.jpg") no-repeat center center;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+#error-message {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#error-message h1 {
+    font-size: 700%;
+}
+
+#error-message h2 {
+    font-size: 300%;
 }
