@@ -83,7 +83,7 @@ h1, h2 {
 
 #landing-image {
     height: 650px;
-    background: url('../images/pexels-elle-hughes-1549196.jpg') no-repeat center center;
+    background: url('../images/index-1.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -168,7 +168,7 @@ h1, h2 {
 #about-us-image {
     height: 600px;
     width: 60%;
-    background: url('../images/pexels-max-ravier-3348391.jpg') no-repeat center center;
+    background: url('../images/index-2.jpg') no-repeat center center;
     background-size: cover;
 
     float: left;
@@ -197,7 +197,7 @@ h1, h2 {
 #what-we-offer-image {
     height: 600px;
     width: 60%;
-    background: url('../images/pexels-adina-lavinia-moldovan-1053536.jpg') no-repeat left center;
+    background: url('../images/index-3.jpg') no-repeat left center;
     background-size: cover;
 
     border-left: 2px solid rgb(1, 104, 123);
@@ -233,7 +233,7 @@ h1, h2 {
     min-height: 450px;
     text-align: center;
 
-    background: url('../images/pexels-matt-hardy-1533720.jpg') no-repeat center center;
+    background: url('../images/index-4.jpg') no-repeat center center;
     background-size: cover;
 
     border-top: 2px solid rgb(1, 104, 123);
@@ -344,7 +344,7 @@ footer {
 /* signup page */
 
 #form-section{
-    background: url('../images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
+    background: url('../images/signup-1.jpg') no-repeat center center;
     min-height: 950px;
     display: flex;
     justify-content: center;
