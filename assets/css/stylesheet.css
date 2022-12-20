@@ -551,3 +551,9 @@ form label {
         column-count: 1;
     }
 }
+
+/* 404 Page */
+
+#error-404 {
+    background: url("assets/images/404-image.jpg") no-repeat center center;
+}
