@@ -555,7 +555,7 @@ form label {
 /* 404 Page */
 
 #error-404 {
-    background: url("/assets/images/404-image.jpg") no-repeat center center;
+    background: url("../images/404-image.jpg") no-repeat center center;
     min-height: 800px;
     display: flex;
     justify-content: center;
