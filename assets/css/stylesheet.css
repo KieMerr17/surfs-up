@@ -344,7 +344,7 @@ footer {
 /* signup page */
 
 #form-section{
-    background: url('/assets/images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
+    background: url('../images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center;
     min-height: 950px;
     display: flex;
     justify-content: center;
