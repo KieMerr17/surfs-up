@@ -1,9 +1,9 @@
 # Surfs Up
 (Developer: Kieran Merrett)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/amiresponsive.jpg)
 
-[Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
+[Live webpage](https://kiemerr17.github.io/surfs-up/index.html)
 
 ## Table of Content
 
@@ -99,7 +99,7 @@ The webpage was designed with a simplicity feel to give the user a quick and eas
 For the colour scheme i used sandy tones and deep blues to give the same feel you would expect to have being on a beach or in the water.tones were chosen to match the images on the page and also the colour theme of the actual restaurant. My inspiration for the colors was taken from a Pintrest colour pallet which i felt delivered just what i was looking for. The colors were given in basic '#' color codes but i converted them to RGB and RGBA to give some areas some opacity.
 <br>
 
-![Colour scheme](docs/features/color-palette.png)
+![Colour scheme](docs/features/color-palette.jpg)
 
 
 ### Fonts
