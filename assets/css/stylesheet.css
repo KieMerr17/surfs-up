@@ -490,8 +490,16 @@ form label {
     }
 }
 
-/* Media queries for small screens 400px and smaller */
-@media screen and (max-width: 400px){
+/* Media queries for small screens 425px and smaller */
+@media screen and (max-width: 425px){
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    #navigation {
+        text-align: center;
+    }
 
     #gallery {
         column-count: 1;
