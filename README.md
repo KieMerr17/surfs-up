@@ -204,6 +204,10 @@ links to the Home Page, Gallery and Sign Up page
 
 ![Contact Us](docs/features/contact-us.png)
 
+Address also displayed with a Google Map on the Sign Up page.
+
+![Google Map](docs/features/google-map.png)
+
 ## Validation
 
 ### HTML Validation
