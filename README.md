@@ -118,20 +118,14 @@ The website consists of three separate pages:
 
 ### Wireframes
 
-<details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
-</details>
-<details><summary>About</summary>
-<img src="docs/wireframes/wireframes-about.png">
-</details>
-<details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes-menu.png">
+<details><summary>Home Page</summary>
+<img src="docs/wireframes/wireframe-homepage.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes-gallery.png">
+<img src="docs/wireframes/wireframe-gallery.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
+<details><summary>Sign Up</summary>
+<img src="docs/wireframes/wireframe-signup.png">
 </details>
 
 ## Technologies Used
