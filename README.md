@@ -209,13 +209,13 @@ links to the Home Page, Gallery and Sign Up page
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 <details><summary>Home Page</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<img src="docs/validation/index-validation.png">
 </details>
 <details><summary>Gallery</summary>
 <img src="docs/validation/validation-html-about.jpg">
 </details>
 <details><summary>Sign Up</summary>
-<img src="docs/validation/validation-html-menu.jpg">
+<img src="docs/validation/signup-validation.png">
 </details>
 <br>
 
