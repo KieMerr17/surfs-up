@@ -212,7 +212,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <img src="docs/validation/index-validation.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<img src="docs/validation/gallery-validation.png">
 </details>
 <details><summary>Sign Up</summary>
 <img src="docs/validation/signup-validation.png">
