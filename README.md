@@ -153,54 +153,56 @@ links to the Home Page, Gallery and Sign Up page
 - This helps the user easily navigate through the pages
 - The link for the page the user is currently on is underlined 
 
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+![Logo and navbar](docs/features/header-nav.png)
 
 ### About Us
 - Alows users to see history of the surf school and about the surf instructors
 - User stories covered: 3, 10, 13
 
-![News](docs/features/feature-news.jpg)
+![About Us](docs/features/about-us.png)
 
 ### What We Offer
 - Alowes users to see the type of traing lssons we offer.
 - User stories covered: 2
 
-![Meal-deal](docs/features/feature-meal-deal.jpg)
+![What We Offer](docs/features/what-we-offer.png)
 
 ### Surf Locations
 - This gives the user a overlook for the week ahead surfing, its conditions (given in a start rating) and how many spaces are available for training that day.
 - User stories covered: 5
+
+![Surf Locations](docs/features/surf-locations.png)
 
 ### Footer
 - Featured across all three pages
 - It holds four seperate icons which link to social social media.
 - User stories covered: 4, 9, 10, 12, 13
 
-![Footer](docs/features/feature-footer.jpg)
+![Footer](docs/features/footer.png)
 
 ### Image Gallery
 - Images take at the surf school during lessons
 - User stories covered: 4, 12, 13
 
-![Gallery](docs/features/feature-gallery.jpg)
+![Gallery](docs/features/gallery.png)
 
 ### Sign Up form
 - A way for user to signup to the training we offer.
 - User stories covered: 7
 
-![Contact Form](docs/features/feature-contact-form.jpg)
+![Sign Up Form](docs/features)
 
 ### Map
 - Shows the rsurf schools location on a Google Map
 - User stories covered: 1, 11 14
 
-![Map](docs/features/feature-map.jpg)
+![Map](docs/features)
 
 ### Contact Us
 - Gives the user information about the surf school including address, email, and opening times.
 - User stories covered:1, 6, 8, 11, 14
 
-![Info Box](docs/features/feature-info-box.jpg)
+![Contact Us](docs/features/contact-us.png)
 
 ## Validation
 
