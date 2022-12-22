@@ -372,41 +372,26 @@ form label {
     letter-spacing: 2px;
 }
 
-.signin-form {
-    border-radius: 50px;
-    margin-top: 50px;
-    color: white;
-    background-color: rgb(1, 104, 123, .6);
-    max-width: 200px;
-    padding: 30px;
+/* Google Map */
+
+.map-responsive h2 {
+    text-decoration: underline;
 }
 
-#sign-in {
-    max-width: 500px;
-    min-width: 200px;
-    color: rgb(1, 104, 123);
-    background-color: rgb(209, 203, 198, .6);
-}
-
-#sign-in h2 {
-    color: rgb(1, 104, 123);
-}
-
-.signin-button {
-    font-size: 100%;
+.map-responsive {
+    overflow:hidden;
     text-align: center;
-    border-radius: 15px;
-    margin-top: 20px;
-    padding: 15px 30px;
-    background-color: rgb(1, 104, 123);
-    color: white;
-    display: block;
+    font-size: 110%;
+    background-color: rgb(209, 203, 198, .6);
+    border-radius: 50px;
+    padding: 30px;
+    margin: 0 30px;
 }
 
-.signin-button:hover {
-    border-radius: 40px;
-    background-color: white;
-    color: rgb(1, 104, 123);
+.map-responsive iframe {
+    border-radius: 30px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Media queries */
@@ -473,8 +458,12 @@ form label {
     }
 
     #form-section {
-        height: 1200px;
+        min-height: 1500px;
         display: grid;
+    }
+
+    .map-responsive {
+        background-color: rgb(209, 203, 198, .8);
     }
 }
 
