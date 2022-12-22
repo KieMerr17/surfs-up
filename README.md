@@ -190,13 +190,13 @@ links to the Home Page, Gallery and Sign Up page
 - A way for user to signup to the training we offer.
 - User stories covered: 7
 
-![Sign Up Form](docs/features)
+![Sign Up Form](docs/features/signup.png)
 
 ### Map
-- Shows the rsurf schools location on a Google Map
+- Shows the surf schools location on a Google Map
 - User stories covered: 1, 11 14
 
-![Map](docs/features)
+![Map](docs/features/google-map.png)
 
 ### Contact Us
 - Gives the user information about the surf school including address, email, and opening times.
@@ -204,7 +204,7 @@ links to the Home Page, Gallery and Sign Up page
 
 ![Contact Us](docs/features/contact-us.png)
 
-Address also displayed with a Google Map on the Sign Up page.
+Contact details are also displayed with a Google Map on the Sign Up page.
 
 ![Google Map](docs/features/google-map.png)
 
