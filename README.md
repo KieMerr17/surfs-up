@@ -281,6 +281,7 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
+|When clicking 'Submit' on the signup.html page, the link is broken and doesnt take you to any page | Created a page to thank people for signing up and from there they can navigate back to either of the menu's|
 
 
 ## Deployment
@@ -290,12 +291,13 @@ The website was deployed using GitHub Pages by following these steps:
 3. For the source select Branch: main
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://kiemerr17.github.io/surfs-up/index.html"
 
-## Credits
-
 ### Media
-In order of apearance:
+All images used were sourced through Pexels website and are free images, Royalty free.
   
 ### Code
+
+I referenced the HTML and CSS from the Love Running project for social links at the footer section of the page, i feel it fitted well with the design i was looking to acheive on the site. 
+I used Google Maps for the embedded Map on the Signup.html page.
 
 ## Acknowledgements
 I would like to take the opportunity to thank:
