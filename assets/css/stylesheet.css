@@ -357,15 +357,13 @@ footer {
     border-radius: 15px;
     margin-top: 5px;
     padding: 15px 30px;
-    background-color: rgb(209, 203, 198);
-    color: black;
+    background-color: white;
+    color: rgb(1, 104, 123);
     display: block;
 }
 
 .submit-button:hover {
     border-radius: 40px;
-    background-color: white;
-    color:  rgb(1, 104, 123);
 }
 
 form label {
