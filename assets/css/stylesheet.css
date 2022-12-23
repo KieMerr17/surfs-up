@@ -372,10 +372,6 @@ form label {
 
 /* Google Map */
 
-.map-responsive h2 {
-    text-decoration: underline;
-}
-
 .map-responsive {
     overflow:hidden;
     text-align: center;

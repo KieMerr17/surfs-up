@@ -237,7 +237,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 <br>
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors. The alerts on the page are due to Home Page link being near the Link through the logo being in close proximity of oneanother.
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors. The alerts on the pages are due to Home Page link being near the Link to the homepage through the logo being in close proximity of one another.
 
 <details><summary>Home Page</summary>
 <img src="docs/validation/index-wave.png">
@@ -278,6 +278,10 @@ The website was tested on the following browsers:
 - Microsoft Egde
 
 ## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
