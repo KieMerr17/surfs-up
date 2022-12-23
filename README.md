@@ -213,13 +213,13 @@ Contact details are also displayed with a Google Map on the Sign Up page.
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 <details><summary>Home Page</summary>
-<img src="docs/validation/index-validation.png">
+<img src="docs/validation/index-html-validation.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/gallery-validation.png">
+<img src="docs/validation/gallery-html-validation.png">
 </details>
 <details><summary>Sign Up</summary>
-<img src="docs/validation/signup-validation.png">
+<img src="docs/validation/signup-html-validation.png">
 </details>
 <br>
 
