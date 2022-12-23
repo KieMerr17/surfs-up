@@ -281,7 +281,9 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-|When clicking 'Submit' on the signup.html page, the link is broken and doesnt take you to any page | Created a page to thank people for signing up and from there they can navigate back to either of the menu's|
+|When clicking 'Submit' on the signup.html page, the link is broken and doesnt take you to any page | Created a page to thank people for signing up and from there they can navigate back to either of the menu links|
+|Main logo header text was splitting and dropping down to another line when viewed on x-small screens | Adjusted padding left on main header to allow logo to stay on one line|
+
 
 
 ## Deployment
