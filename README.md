@@ -229,6 +229,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Sign Up</summary>
 <img src="docs/validation/signup-html-validation.png">
 </details>
+<details><summary>404 Page</summary>
+<img src="docs/validation/404.png">
+</details>
 <br>
 
 ### CSS Validation
