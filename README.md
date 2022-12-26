@@ -364,6 +364,7 @@ Option 2
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Main CTA Button| Navigate to the Home Page, click the 'Sign Up Today' CTA Button| Taken to the Sign Up page in new tab to input your details| Works as expected |
+| Sign Up Page | Navigate to the Home Page, click the Sign Up Page | Taken to the Sign Up page in current tab to input your details| Works as expected |
 
 <details><summary>Screenshots</summary>
 Option 1
@@ -372,15 +373,110 @@ Option 1
 Option 2
 <img src="docs/user-story-testing/story-7-2.1.jpg">
 <img src="docs/user-story-testing/story-7-2.2.jpg">
+</details> 
+<br>
+
+8. As a returning user, I want to be able to email the company
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to the Home Page, Scroll down to the 'Contact Us' section | Find the company contact email address| Works as expected |
+| Map | Navigate to the Home Page, click the Sign Up Page | Taken to the Sign Up page and email address to be displayed about the map| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-8-1.1.jpg">
+<img src="docs/user-story-testing/story-8-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-8-2.1.jpg">
+<img src="docs/user-story-testing/story-8-2.2.jpg">
+</details> 
+<br>
+9. As a returning user, I want to find the surf school on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to the Home Page on all 3 pages, scroll down to the Footer| Find links to social media accounts| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-9-1.1.jpg">
+<img src="docs/user-story-testing/story-9-1.2.jpg">
 </details>
 <br>
-8. As a returning user, I want to be able to email the company
-9. As a returning user, I want to find the surf school on social media
+
 10. As a returning user, I want to know who my instructors are
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the Home Page, scroll down to the 'About Us'| Find details about the Instructors | Works as expected |
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-10-1.1.jpg">
+<img src="docs/user-story-testing/story-10-1.2.jpg">
+</details>
+<br>
+
 11. As a returning user, I want to get directions to the surf school
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address details | Navigate to the Bottom of the Home Page, locate the Address for the surf school| Find Address of where the school is located | Works as expected |
+| Map | An embedded Google map has been linked to the page for users to click | Find the address of the surf school| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-11-1.1.jpg">
+<img src="docs/user-story-testing/story-11-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-11-2.1.jpg">
+<img src="docs/user-story-testing/story-11-2.2.jpg">
+</details>
+<br>
+
 12. As the site owner, I want users to be able to see photographic evidence of our training
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to the Home Page, scroll down to the Footer| Find links to social media accounts| Works as expected |
+| Gallery| Navigate to the Gallery Page|View Images of previous lessons and locations where we surf| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-12-1.1.jpg">
+<img src="docs/user-story-testing/story-12-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-12-2.1.jpg">
+<img src="docs/user-story-testing/story-12-2.2.jpg">
+</details>
+<br>
+
 13. As the site owner, I want users to know the history of the surf school
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the Home Page, scroll down to the 'About Us'| Find details about the history of the company| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-13-1.1.jpg">
+<img src="docs/user-story-testing/story-13-1.2.jpg">
+</details>
+<br>
+
 14. As the site owner, I want the users to be able to contact us or come for a visit
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address details | Navigate to the Bottom of the Home Page, locate the Address for the surf school| Find Address of where the school is located | Works as expected |
+| Map | An embedded Google map has been linked to the page for users to click | Find the address of the surf school| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-14-1.1.jpg">
+<img src="docs/user-story-testing/story-14-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-14-2.1.jpg">
+<img src="docs/user-story-testing/story-14-2.2.jpg">
+</details>
+<br>
 
 
 ## Bugs
