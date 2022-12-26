@@ -277,6 +277,112 @@ The website was tested on the following browsers:
 - Google Chrome
 - Microsoft Egde
 
+### Testing user stories
+
+1. As a first time user, I want to know where the surf school is located
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Address details | Navigate to the Bottom of the Home Page, locate the Address for the surf school| Find Address of where the school is located | Works as expected |
+| Map | An embedded Google map has been linked to the page for users to click | Find the address of the surf school| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-1-1.1.jpg">
+<img src="docs/user-story-testing/story-1-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-1-2.1.jpg">
+<img src="docs/user-story-testing/story-1-2.2.jpg">
+</details>
+<br>
+
+2. As a first time user, I want to know the type of training available
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| What We Offer | Navigate to the Home Page, scroll down to the 'What We Offer Section'| Find details for the range of course available | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-2-1.1.jpg">
+<img src="docs/user-story-testing/story-2-1.2.jpg">
+</details>
+<br>
+
+3. As a first time user, I want to know the history of the surf school
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us | Navigate to the Home Page, scroll down to the 'About Us'| Find details about the history of the company| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-3-1.1.jpg">
+<img src="docs/user-story-testing/story-3-1.2.jpg">
+</details>
+<br>
+
+4. As a first time user, I want to get a feel for what to expect during my training
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to the Home Page, scroll down to the Footer| Find links to social media accounts| Works as expected |
+| Gallery| Navigate to the Gallery Page|View Images of previous lessons and locations where we surf| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-4-1.1.jpg">
+<img src="docs/user-story-testing/story-4-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-4-2.1.jpg">
+<img src="docs/user-story-testing/story-4-2.2.jpg">
+</details>
+<br>
+
+5. As a returning user, I want to see the forecast for this weeks surfing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| This Weeks Surfing | Navigate to the Home Page, scroll down to the 'This Weeks Surfing' setion| Find details for the surf conditions and locations this week| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-5-1.1.jpg">
+<img src="docs/user-story-testing/story-5-1.2.jpg">
+</details>
+<br>
+6. As a returnign user, I want to know the opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Us | Navigate to the Home Page, scroll down to the 'Contact Us' setion| Find details for the surf school opening times| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-6-1.1.jpg">
+<img src="docs/user-story-testing/story-6-1.2.jpg">
+</details>
+<br>
+7. As a returning user, I want to be able to sign up to some surfing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main CTA Button| Navigate to the Home Page, click the 'Sign Up Today' CTA Button| Taken to the Sign Up page in new tab to input your details| Works as expected |
+
+<details><summary>Screenshots</summary>
+Option 1
+<img src="docs/user-story-testing/story-7-1.1.jpg">
+<img src="docs/user-story-testing/story-7-1.2.jpg">
+Option 2
+<img src="docs/user-story-testing/story-7-2.1.jpg">
+<img src="docs/user-story-testing/story-7-2.2.jpg">
+</details>
+<br>
+8. As a returning user, I want to be able to email the company
+9. As a returning user, I want to find the surf school on social media
+10. As a returning user, I want to know who my instructors are
+11. As a returning user, I want to get directions to the surf school
+12. As the site owner, I want users to be able to see photographic evidence of our training
+13. As the site owner, I want users to know the history of the surf school
+14. As the site owner, I want the users to be able to contact us or come for a visit
+
+
 ## Bugs
 
 | **Bug** | **Fix** |
