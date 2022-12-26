@@ -78,7 +78,7 @@
 
 #### Returning User
 5. As a returning user, I want to see the forecast for this weeks surfing
-6. As a returnign user, I want to know the opening times
+6. As a returning user, I want to know the opening times
 7. As a returning user, I want to be able to sign up to some surfing
 8. As a returning user, I want to be able to email the company
 9. As a returning user, I want to find the surf school on social media
@@ -96,7 +96,7 @@
 The webpage was designed with a simplicity feel to give the user a quick and easy navigation to specific sections for relevant information.
 
 ### Colours
-For the colour scheme i used sandy tones and deep blues to give the same feel you would expect to have being on a beach or in the water.tones were chosen to match the images on the page and also the colour theme of the actual restaurant. My inspiration for the colors was taken from a Pintrest colour pallet which i felt delivered just what i was looking for. The colors were given in basic '#' color codes but i converted them to RGB and RGBA to give some areas some opacity.
+For the colour scheme i used sandy tones and deep blues to give the same feel you would expect to have being on a beach or in the water. My inspiration for the colors was taken from a Pintrest colour pallet which i felt delivered just what i was looking for. The colors were given in basic '#' color codes but i converted them to RGB and RGBA to give some areas some opacity.
 <br>
 
 ![Colour scheme](docs/features/color-palette.jpg)
@@ -148,10 +148,10 @@ The page consists of three pages and fourteen features
 
 ### Logo and Navigation Bar
 - Featured across all three pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+- The navbar is fully responsive and changes to centralise itself on smaller screens and includes
 links to the Home Page, Gallery and Sign Up page
 - This helps the user easily navigate through the pages
-- The link for the page the user is currently on is underlined 
+- The title/link for the page the user is currently on is displayed as underlined 
 
 ![Logo and navbar](docs/features/header-nav.png)
 
@@ -162,7 +162,7 @@ links to the Home Page, Gallery and Sign Up page
 ![About Us](docs/features/about-us.png)
 
 ### What We Offer
-- Alowes users to see the type of traing lssons we offer.
+- Alowes users to see the type of training lessons we offer.
 - User stories covered: 2
 
 ![What We Offer](docs/features/what-we-offer.png)
@@ -181,7 +181,7 @@ links to the Home Page, Gallery and Sign Up page
 ![Footer](docs/features/footer.png)
 
 ### Image Gallery
-- Images take at the surf school during lessons
+- Images taken at the surf school during lessons
 - User stories covered: 4, 12, 13
 
 ![Gallery](docs/features/gallery.png)
@@ -204,7 +204,7 @@ links to the Home Page, Gallery and Sign Up page
 
 ![Contact Us](docs/features/contact-us.png)
 
-Contact details are also displayed with a Google Map on the Sign Up page.
+Contact details are also displayed above the Google Map on the Sign Up page.
 
 ![Google Map](docs/features/google-map.png)
 
@@ -341,24 +341,26 @@ Option 2
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| This Weeks Surfing | Navigate to the Home Page, scroll down to the 'This Weeks Surfing' setion| Find details for the surf conditions and locations this week| Works as expected |
+| This Weeks Surfing | Navigate to the Home Page, scroll down to the 'This Weeks Surfing' section| Find details for the surf conditions and locations this week| Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/story-5-1.1.jpg">
 <img src="docs/user-story-testing/story-5-1.2.jpg">
 </details>
 <br>
+
 6. As a returnign user, I want to know the opening times
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Us | Navigate to the Home Page, scroll down to the 'Contact Us' setion| Find details for the surf school opening times| Works as expected |
+| Contact Us | Navigate to the Home Page, scroll down to the 'Contact Us' section| Find details for the surf schools opening times| Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/story-6-1.1.jpg">
 <img src="docs/user-story-testing/story-6-1.2.jpg">
 </details>
 <br>
+
 7. As a returning user, I want to be able to sign up to some surfing
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -381,7 +383,7 @@ Option 2
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Us | Navigate to the Home Page, Scroll down to the 'Contact Us' section | Find the company contact email address| Works as expected |
-| Map | Navigate to the Home Page, click the Sign Up Page | Taken to the Sign Up page and email address to be displayed about the map| Works as expected |
+| Map | Navigate to the Home Page, click the Sign Up Page | Taken to the Sign Up page and email address is displayed above the map| Works as expected |
 
 <details><summary>Screenshots</summary>
 Option 1
@@ -392,6 +394,7 @@ Option 2
 <img src="docs/user-story-testing/story-8-2.2.jpg">
 </details> 
 <br>
+
 9. As a returning user, I want to find the surf school on social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -453,7 +456,7 @@ Option 2
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the Home Page, scroll down to the 'About Us'| Find details about the history of the company| Works as expected |
+| About Us | Navigate to the Home Page, scroll down to the 'About Us' section| Find details about the history of the company| Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/story-13-1.1.jpg">
@@ -466,7 +469,7 @@ Option 2
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Address details | Navigate to the Bottom of the Home Page, locate the Address for the surf school| Find Address of where the school is located | Works as expected |
-| Map | An embedded Google map has been linked to the page for users to click | Find the address of the surf school| Works as expected |
+| Map | An embedded Google map has been linked to the page for users to click | Find the location of the surf school| Works as expected |
 
 <details><summary>Screenshots</summary>
 Option 1
@@ -495,12 +498,15 @@ The website was deployed using GitHub Pages by following these steps:
 3. For the source select Branch: main
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://kiemerr17.github.io/surfs-up/index.html"
 
+## Credits
+
 ### Media
 All images used were sourced through Pexels website and are free images, Royalty free.
   
 ### Code
 
 I referenced the HTML and CSS from the Love Running project for social links at the footer section of the page, i feel it fitted well with the design i was looking to acheive on the site. 
+
 I used Google Maps for the embedded Map on the Signup.html page.
 
 ## Acknowledgements
