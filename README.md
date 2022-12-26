@@ -89,6 +89,7 @@
 12. As the site owner, I want users to be able to see photographic evidence of our training
 13. As the site owner, I want users to know the history of the surf school
 14. As the site owner, I want the users to be able to contact us or come for a visit
+15. As the site owner, I want users to see if a page cannot be found, 404 page.
 
 ## Design
 
@@ -208,6 +209,12 @@ links to the Home Page, Gallery and Sign Up page
 Contact details are also displayed above the Google Map on the Sign Up page.
 
 ![Google Map](docs/features/google-map.png)
+
+### 404 Page
+- Give the user a clear indication that there has been an error finding the page they are looking for and can navigate away from here to try again
+- User stories covered: 15
+
+![404 Page](docs/features/404.png)
 
 ## Validation
 
@@ -481,6 +488,19 @@ Option 2
 <img src="docs/user-story-testing/story-14-2.2.jpg">
 </details>
 <br>
+
+15. As the site owner, I want users to see if a page cannot be found, 404 page.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Page | input the number '1' next to index.html to cause there to be a loading error on the page| 404 page to be displayed confirming error finding the page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/story-15-1.1.jpg">
+<img src="docs/user-story-testing/story-15-1.2.jpg">
+</details>
+<br>
+
 
 
 ## Bugs
