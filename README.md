@@ -142,6 +142,7 @@ The website consists of three separate pages:
 - Pintrest
 - Font Awsome
 - Favicon<span>.</span>io
+- TinyPNG
 
 ## Features
 The page consists of three pages and fourteen features
