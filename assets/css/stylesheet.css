@@ -74,7 +74,7 @@ h1, h2 {
 
 #landing-image {
     height: 650px;
-    background: url('../images/index-1.webp') no-repeat center center;
+    background: url('../images/index-1.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
 }
@@ -148,7 +148,7 @@ h1, h2 {
 #about-us-image {
     height: 600px;
     width: 60%;
-    background: url('../images/index-2.webp') no-repeat center center;
+    background: url('../images/index-2.jpg') no-repeat center center;
     background-size: cover;
     float: left;
     box-sizing: border-box;
@@ -171,7 +171,7 @@ h1, h2 {
 #what-we-offer-image {
     height: 600px;
     width: 60%;
-    background: url('../images/index-3.webp') no-repeat left center;
+    background: url('../images/index-3.jpg') no-repeat left center;
     background-size: cover;
     border-left: 2px solid rgb(1, 104, 123);
     float: right;
@@ -201,7 +201,7 @@ h1, h2 {
 #surf-locations {
     min-height: 450px;
     text-align: center;
-    background: url('../images/index-4.webp') no-repeat center center;
+    background: url('../images/index-4.jpg') no-repeat center center;
     background-size: cover;
     border-top: 2px solid rgb(1, 104, 123);
     border-bottom: 2px solid rgb(1, 104, 123);
