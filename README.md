@@ -274,11 +274,15 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Sign Up</summary>
 <img src="docs/validation/signup-lighthouse.png">
 </details>
-** Signup.html scores low due to google map api JavaScript performance error when testing in Lighthouse.
+** Signup.html scores low due to google map api JavaScript performance error when testing in Lighthouse. 
 
 ** Map was linked to site direct from Googles own source code
 <details><summary>* Performance score issue * </summary>
 <img src="docs/validation/signup-lighthouse-score-issue.png">
+</details>
+
+<details><summary>404</summary>
+<img src="docs/validation/404-lighthouse.png">
 </details>
 
 <br>
