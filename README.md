@@ -128,6 +128,9 @@ The website consists of three separate pages:
 <details><summary>Sign Up</summary>
 <img src="docs/wireframes/wireframe-signup.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/wireframes/wireframe-404.png">
+</details>
 
 ## Technologies Used
 
@@ -253,6 +256,9 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 </details>
 <details><summary>Sign Up</summary>
 <img src="docs/validation/signup-wave.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/404-wave.png">
 </details>
 <br>
 
