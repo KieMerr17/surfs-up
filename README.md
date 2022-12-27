@@ -144,9 +144,10 @@ The website consists of three separate pages:
 - Font Awsome
 - Favicon<span>.</span>io
 - TinyPNG
+- Google embedded map
 
 ## Features
-The page consists of three pages and fourteen features
+The page consists of three pages and ten features
 
 ### Logo and Navigation Bar
 - Featured across all three pages
