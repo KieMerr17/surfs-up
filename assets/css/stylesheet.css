@@ -76,7 +76,7 @@ h1, h2 {
 
 #landing-image {
     height: 650px;
-    background: url('../images/index-1.jpg') no-repeat center center;
+    background: url('../images/index-1.webp') no-repeat center center;
     background-size: cover;
     border-bottom: 2px solid rgb(1, 104, 123);
 }
